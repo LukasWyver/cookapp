@@ -1,5 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
 import { theme } from '@/theme'
+import { StyleSheet, Text, View } from 'react-native';
+import { Ingredients } from '@/components/ingredients';
 
 export default function app() {
  return (
@@ -12,6 +13,8 @@ export default function app() {
       <Text style={styles.message}>
         Descubra receitas baseadas nos produtos que você escolheu.
       </Text>
+
+      <Ingredients />
    </View>
   );
 }
