@@ -14,7 +14,7 @@ export default function app() {
         Descubra receitas baseadas nos produtos que você escolheu.
       </Text>
 
-      <Ingredients />
+      <Ingredients />      
    </View>
   );
 }
